@@ -7,7 +7,6 @@ int main(){
 	int a[n],i,*x, c=0;
 	x=(int *) calloc(n,sizeof(int));
 	
-	puts("enter 5 items. 3 symbols each");
 	for(i=0;i<n;i++){
 		scanf("%d", &a[i]);
 	}
