@@ -18,14 +18,14 @@ int main () {
 	z1 = ((z11)+(z12))/((z13)+(z14));
 	z2 = pow((x+3) / (x-3), 1/2);
 	
-								//Удалить отсюда
+								//СѓРґР°Р»РёС‚СЊ РѕС‚СЃСЋРґР°
 	if (z1 == z2) {
 		printf("\nALL CORRECT\n\n");
 	}
 	else {
 		printf("ERROR, check your code \n"); //alexandr korolev
 	}
-								//конец удаления
+								//РєРѕРЅРµС† СѓРґР°Р»РµРЅРёСЏ
 								
 	printf("Z1 = %f \nZ2 = %f \n", z1, z2);
 	getch();
